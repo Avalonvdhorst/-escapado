@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Room.destroy_all
+puts "all rooms destroyed"
+
+puts "Creating Rooms"
+
+Room.create!(name: "first_room")
+Room.create!(name: "second_room")
+Room.create!(name: "third_room")
+
+puts "Done!"
+

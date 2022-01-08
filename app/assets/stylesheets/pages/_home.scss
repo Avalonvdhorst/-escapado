@@ -1,1 +1,30 @@
 // Specific CSS for your home-page
+#banner-home {
+  background-image: linear-gradient(rgba(79, 56, 56,0.20),rgba(79, 56, 56,0.20)), url('homepage.jpg');
+}
+
+#welcome-message {
+  color: white;
+  width: 40vw;
+  padding: 50px 50px;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+.header-text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+}
+
+.link-hover {
+  text-decoration: none;
+  color: white;
+}
+
+.link-hover:hover {
+  text-decoration: none;
+  color: #FFD700;
+  font-size: 20.5px;
+  font-weight: 500;
+}
